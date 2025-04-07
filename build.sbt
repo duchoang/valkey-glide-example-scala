@@ -3,8 +3,8 @@ ThisBuild / version := "0.1.0-SNAPSHOT"
 ThisBuild / scalaVersion := "2.13.16"
 
 
-val baseImage = "sbtscala/scala-sbt:eclipse-temurin-11.0.17_8_1.8.2_2.13.10"
-// val dockerBaseImage = "amazoncorretto:11.0.26-al2023-headless"
+// val baseImage = "sbtscala/scala-sbt:eclipse-temurin-11.0.17_8_1.8.2_2.13.10"
+val baseImage = "amazoncorretto:11.0.26-al2023-headless"
 
 lazy val root = (project in file("."))
   .settings(
